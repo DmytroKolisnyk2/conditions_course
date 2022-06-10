@@ -1,0 +1,39 @@
+
+.subjects {
+  padding: $padding;
+  padding-bottom: 0;
+}
+.subject__caption {
+  font-family: $inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  max-width: 225px;
+  margin: 0 auto;
+}
+.subject__img {
+  margin: 0 auto 20px;
+  display: block;
+}
+.subjects__content-wrapper {
+  width: 100%;
+  max-width: $content-width;
+  margin: 0 auto;
+}
+.subjects__headline {
+  width: 900px;
+  margin-bottom: 40px;
+}
+.subjects__subject {
+  width: 276px;
+  height: 312px;
+  margin-bottom: 20px;
+  width: 33%;
+}
+.subjects__subject-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

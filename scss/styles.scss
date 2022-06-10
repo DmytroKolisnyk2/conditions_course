@@ -1,0 +1,38 @@
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./main.scss";
+@import "./home.scss";
+@import "./footer.scss";
+@import "./age.scss";
+@import "./decorations.scss";
+@import "./interests.scss";
+@import "./subjects.scss";
+
+.result {
+  padding: $padding;
+}
+.result__content-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: $content-width;
+}
+
+.result__headline {
+  margin-bottom: 32px;
+  width: 270px;
+}
+.result__wrapper {
+}
+.result__img{
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: block;
+}
+.result__caption {
+  font-family: $inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+}

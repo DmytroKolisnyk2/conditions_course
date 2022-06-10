@@ -1,0 +1,18 @@
+.home {
+  max-width: $content-width;
+  width: 100%;
+  padding: $padding;
+  margin: 0 auto;
+  &__link {
+    cursor: pointer;
+    display: block;
+    margin: 5px 7px;
+    font-size: 16px;
+    color: black;
+    font-family: $inter;
+    display: block;
+    &:hover{
+      color: #373737;
+    }
+  }
+}
