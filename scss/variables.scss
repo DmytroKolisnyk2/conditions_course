@@ -4,9 +4,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 // font-family: 'Roboto', sans-serif;
 
+
+:root {
+  --p: calc(1vh / 10.24);
+}
+// calc(var(--p) * n)
+
+$p: calc(1vh / 10.24);
+
 $content-width: 1110px;
+// calc($p * 1110)
+
 $roboto: "Roboto", sans-serif;
 $inter: "Inter", sans-serif;
-$padding: 32px;
+
+$padding: calc(var(--p) * 32);
 $footer-black: #373737;
 $yellow: #febb00;

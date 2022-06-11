@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 690px;
+  min-height: calc(var(--p) * 580);
 }
 .interests__card {
   width: 260px;

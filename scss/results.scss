@@ -1,0 +1,28 @@
+.result {
+  padding: $padding;
+}
+.result__content-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: $content-width;
+}
+
+.result__headline {
+  margin-bottom: calc(var(--p) * 32);
+  width: calc(var(--p) * 270);
+}
+.result__wrapper {
+}
+.result__img {
+  margin-bottom: calc(var(--p) * 20);
+  margin: 0 auto;
+  display: block;
+  width: calc(var(--p) * 713);
+}
+.result__caption {
+  font-family: $inter;
+  font-size: calc(var(--p) * 32);
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}

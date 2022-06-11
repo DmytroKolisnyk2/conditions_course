@@ -11,12 +11,13 @@
   color: #ffffff;
   text-align: center;
   display: block;
+  font-size: calc(var(--p) * 18);
 }
 .footer__link-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 37px;
+  margin-bottom: calc(var(--p) * 37);
 }
 .footer__content-wrapper {
   max-width: $content-width;
@@ -29,12 +30,20 @@
   align-items: center;
   border-radius: 50%;
   border: 3px $yellow solid;
-  width: 56px;
-  height: 56px;
+  width: calc(var(--p) * 56);
+  height: calc(var(--p) * 56);
+  & img {
+    object-fit: contain;
+    width: 70%;
+    height: 70%;
+  }
 }
 .footer__icon-wrapper {
-  width: 300px;
+  width: calc(var(--p) * 300);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.footer__logo {
+  width: calc(var(--p) * 190);
 }

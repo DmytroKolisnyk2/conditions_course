@@ -1,24 +1,23 @@
 .math {
   padding: $padding;
 }
-.main__headline {
-  width: 650px;
-}
 .math__content-wrapper {
   max-width: $content-width;
   width: 100%;
   margin: 0 auto;
 }
 .math__headline {
+  width: calc(var(--p) * 620);
 }
 .math__img {
+  width: calc(var(--p) * 358);
 }
 .math__wrapper {
-  max-width: 920px;
+  max-width: calc(var(--p) * 920);
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  height: 580px;
+  height: calc(var(--p) * 580);
 }

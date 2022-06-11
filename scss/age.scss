@@ -1,38 +1,40 @@
 .age {
   padding: $padding;
-  padding-bottom: 52px;
+  padding-bottom: calc(var(--p) * 52);
 }
 .age__content-wrapper {
   max-width: $content-width;
   width: 100%;
   margin: 0 auto;
+
 }
 .age__headline {
-  margin-bottom: 32px;
+  margin-bottom: calc(var(--p) * 32);
 }
 .age__caption {
   font-family: $inter;
-  font-size: 24px;
+  font-size: calc(var(--p) * 24);
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
-  margin-bottom: 52px;
+  margin-bottom: calc(var(--p) * 52);
 }
+
 .age__number-block {
   display: grid;
-  grid-template-rows: auto;
-  grid-gap: 26px;
-  margin-bottom: 26px;
+  grid-template-rows: calc(var(--p) * 161);
+  grid-gap: calc(var(--p) * 26);
+  margin-bottom: calc(var(--p) * 26);
   justify-content: space-around;
-  grid-template-columns: repeat(auto-fit, 185px);
+  grid-template-columns: repeat(auto-fit, calc(var(--p) * 185));
   &--third {
     max-width: 502px;
     margin: 0 auto;
   }
 }
 .number-block__item {
-  width: 185px;
+  width: calc(var(--p) * 185);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,4 +48,7 @@
   }
 }
 .number-block__img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }

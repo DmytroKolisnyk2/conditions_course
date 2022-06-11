@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
 }
 .main {
   flex-grow: 1;
@@ -11,11 +11,11 @@ body {
 }
 .main__headline {
   font-family: $inter;
-  font-size: 48px;
+  font-size: calc(var(--p) * 48);
   font-weight: 700;
-  line-height: 58px;
+  // line-height: 58px;
   text-align: left;
-  width: 395px;
+  width: calc(var(--p) * 395);
   color: $footer-black;
   text-transform: uppercase;
 }
