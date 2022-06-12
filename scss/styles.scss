@@ -9,3 +9,19 @@
 @import "./footer.scss";
 @import "./results.scss";
 @import "./decorations.scss";
+
+.number-block__item {
+  width: calc(var(--p) * 185);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 200ms linear;
+  border: 3px solid transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 2px 5px;
+  &:hover {
+    border-color: $yellow;
+    transform: scale(1.02);
+  }
+}

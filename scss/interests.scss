@@ -17,6 +17,14 @@
   width: 260px;
   height: 330px;
   cursor: pointer;
+  border: 3px transparent solid;
+  padding: 17px 0;
+  border-radius: 5px;
+  transition: 200ms linear;
+  &:hover {
+    border-color: $yellow;
+    transform: scale(1.01);
+  }
 }
 .interests__headline {
   margin-bottom: 48px;
